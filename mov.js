@@ -1,5 +1,5 @@
-const API_URL="http://www.omdbapi.com/?i=tt3896198&apikey=ee57a6&s=";
-const URL_SEARCH="http://www.omdbapi.com/?apikey=ee57a6&i=";
+const API_URL="https://www.omdbapi.com/?i=tt3896198&apikey=ee57a6&s=";
+const URL_SEARCH="https://www.omdbapi.com/?apikey=ee57a6&i=";
 
 var search_input=document.getElementById("searchip");
 var card=document.getElementsByClassName("cards")[0];
