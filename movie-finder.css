@@ -57,6 +57,9 @@ body{
 .s:hover{
 	position: relative;
 	right: 15px;
+}
+.s:hover{
+	
 	background-color:darkgray;
 	border: px solid black;
 	
