@@ -54,7 +54,7 @@ body{
 	
 
 }
-.s:hover{
+.s:focus{
 	position: relative;
 	right: 15px;
 }
