@@ -1,0 +1,116 @@
+body{
+	box-sizing: border-box;
+	margin: 0;	
+	padding: 0px;
+	font-size:20px;
+	
+	background: url(r.gif);
+	max-height: 400px;
+}
+.t{
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	font-size: 30px;
+	font-weight: 700;
+	background-color: black;
+	text-align: center;
+	width :100%;
+	padding :15px;
+
+	
+}
+
+.full{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.f-input{
+	border: none;
+	outline: none;
+	border: 2px solid rebeccapurple;
+	background-color: aliceblue;
+	padding: 10px;
+	margin-right :10px;
+	margin-top: 10px;
+	
+}
+.f-input:focus{
+	background-color: blanchedalmond;
+
+}
+.s{	
+	padding: 0;
+	border: 5px solid black;
+	position: relative;
+	top: 11px;
+	right: 5px;
+	height: 40px;
+
+	
+
+}
+.s:hover{
+	position: relative;
+	right: 15px;
+	background-color:darkgray;
+	border: px solid black;
+	
+	
+	
+}
+.cards{
+	position: relative;
+	top: 50px;
+	z-index: 50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+
+}
+.card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+	padding: 30px;
+	width: 700px;
+	background-image:url(pp.jpeg);
+}
+.movie-t{
+
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width: :300px;
+	margin: 0px 200px;
+	color: aliceblue;
+
+
+}
+.value{
+	font-size: 18px;
+	width: 200px;
+	color: steelblue;
+
+}
+.search{
+	position: relative;
+	top: 70px;
+	width: 100%;
+	text-align: center;
+}
+.t img{
+	height: 60px;
+}
+.s img{
+	height: 100%;
+	width: 100%;
+	
+}
